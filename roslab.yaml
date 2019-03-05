@@ -1,0 +1,23 @@
+name: dynslam
+
+base:
+  ubuntu: 16.04
+  cuda: 8.0-devel
+  cudnn: 6-devel
+  opengl: runtime
+
+apt:
+  - libxmu-dev
+  - libxi-dev
+  - freeglut3
+  - freeglut3-dev
+  - glew-utils
+  - libglew-dev
+  - libglew-dbg
+  - libpthread-stubs0-dev
+  - binutils-dev
+  - libgflags-dev
+  - libpng++-dev
+  - libeigen3-dev
+  - libopencv-dev
+
