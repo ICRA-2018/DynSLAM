@@ -18,6 +18,27 @@ apt:
   - binutils-dev
   - libgflags-dev
   - libpng++-dev
-  - libeigen3-dev
   - libopencv-dev
+  - p7zip-full
+
+pip3:
+  - numpy
+  - pandas
+  - matplotlib
+  - scipy
+  - scikit-learn
+  - seaborn
+
+source:
+  - name: Pangolin
+    repo: https://github.com/stevenlovegrove/Pangolin.git
+    build: cmake
+
+  - name: eigen
+    repo: https://github.com/eigenteam/eigen-git-mirror.git
+    build: cmake
+
+build: cmake
+
+cmake_options: -DCUDA_COMPUTE_CAPABILITY=52
 

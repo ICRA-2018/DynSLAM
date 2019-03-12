@@ -1,11 +1,6 @@
-build/
-build-old/
-cmake-build-debug/
-data/
-fig/
-raw-data-archives/
-.git/
-csv/
-.idea/
-deps/
-notebooks/
+README.md
+.dockerignore
+roslab.yaml
+roslab.dockerfile
+roslab_build.sh
+roslab_run.sh
